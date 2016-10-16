@@ -1,0 +1,6 @@
+.gradient-brand { @include linear-gradient(135deg, $primary-brand, $primary-info); }
+.gradient-info { @include linear-gradient(135deg, $primary-info, $primary-success); }
+.gradient-success { @include linear-gradient(135deg, $primary-success, $primary-warning); }
+.gradient-warning { @include linear-gradient(135deg, $primary-warning, $primary-caution); }
+.gradient-caution { @include linear-gradient(135deg, $primary-caution, $primary-danger); }
+.gradient-danger { @include linear-gradient(135deg, $primary-danger, $primary-brand); }

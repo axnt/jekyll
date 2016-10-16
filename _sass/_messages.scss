@@ -1,0 +1,11 @@
+.msg-brand { @include message($primary-brand); }
+
+.msg-info { @include message($primary-info); }
+
+.msg-success { @include message($primary-success); }
+
+.msg-warning { @include message($primary-warning); }
+
+.msg-caution { @include message($primary-caution); }
+
+.msg-danger { @include message($primary-danger); }

@@ -1,0 +1,19 @@
+.form {
+  min-height: 34px;
+  padding: 6px 8px;
+  font-family: inherit;
+  font-size: $body-font-size;
+  line-height: 20px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  outline: none;
+
+  .focus,
+  &:focus {
+    border: 1px solid $primary-default;
+    box-shadow: 0 0 5px $primary-default;
+  }
+}

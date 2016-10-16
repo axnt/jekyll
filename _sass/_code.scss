@@ -1,0 +1,35 @@
+code,
+kbd,
+pre,
+samp { font-family: $mono-font-stack; }
+
+code,
+kbd {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+code,
+kbd,
+pre { border-radius: 2px; }
+
+code {
+  color: $code-text-color;
+  background-color: $code-bg-color;
+}
+
+kbd {
+  color: $kbd-text-color;
+  background-color: $kbd-bg-color;
+}
+
+pre {
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+  line-height: 1.25;
+  color: $pre-text-color;
+  background-color: $pre-bg-color;
+  border: 1px solid darken($pre-bg-color, 5%);
+  -webkit-overflow-scrolling: touch;
+}

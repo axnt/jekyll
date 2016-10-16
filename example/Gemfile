@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+gem "axinite", path: "../"
+gem "jekyll", "~> 3.2"
+gem "jekyll-feed", "~> 0.8.0"
+gem "jekyll-paginate", "~> 1.1.0"
