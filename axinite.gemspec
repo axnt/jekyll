@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "axinite"
-  spec.version       = "0.0.9"
+  spec.version       = "0.0.10"
   spec.authors       = ["Avery Magnotti"]
   spec.email         = ["citrusui@users.noreply.github.com"]
 
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["plugin_type"] = "theme"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_scss|LICENSE.md|README.md)}i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|_sass|LICENSE.md|README.md)}i) }
 
   spec.add_development_dependency "jekyll", "~> 3.3"
   spec.add_development_dependency "jekyll-feed", "~> 0.8.0"
