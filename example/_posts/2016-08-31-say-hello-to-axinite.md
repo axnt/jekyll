@@ -7,5 +7,6 @@ Hello and welcome to Axinite.
 
 ```js
 'use strict';
-var x = 5;
+
+require('lodash');
 ```

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "axinite"
-  spec.version       = "0.0.10"
+  spec.version       = "0.0.11"
   spec.authors       = ["Avery Magnotti"]
   spec.email         = ["citrusui@users.noreply.github.com"]
 
